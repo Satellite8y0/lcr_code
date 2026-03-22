@@ -1,0 +1,28 @@
+{
+  "string": [
+    {
+      "name": "entry_desc",
+      "value": "生命体征监测系统"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "生命体征监测系统"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "生命检测"
+    },
+    {
+      "name": "vibrate_permission_reason",
+      "value": "用于告警提示震动"
+    },
+    {
+      "name": "internet_permission",
+      "value": "用于TCP通信"
+    },
+    {
+      "name": "network_permission",
+      "value": "用于获取网络状态"
+    }
+  ]
+} 

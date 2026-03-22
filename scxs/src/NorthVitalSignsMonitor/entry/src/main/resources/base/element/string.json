@@ -1,0 +1,28 @@
+{
+  "string": [
+    {
+      "name": "entry_desc",
+      "value": "Vital Signs Monitor"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "Vital Signs Monitor System"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "生命检测"
+    },
+    {
+      "name": "vibrate_permission_reason",
+      "value": "Used for alarm notifications"
+    },
+    {
+      "name": "internet_permission",
+      "value": "Used for TCP communication"
+    },
+    {
+      "name": "network_permission",
+      "value": "Used for network status"
+    }
+  ]
+}

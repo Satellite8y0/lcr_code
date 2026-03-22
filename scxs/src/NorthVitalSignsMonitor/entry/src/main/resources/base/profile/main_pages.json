@@ -1,0 +1,14 @@
+{
+  "src": [
+    "pages/LoginPage",
+    "pages/Index",
+    "pages/PatientDetailPage",
+    "pages/DeviceBindPage",
+    "pages/VitalSignTrendPage",
+    "pages/PatientDetailDataPage",
+    "pages/AllVitalSignsPage",
+    "pages/TcpTestPage",
+    "pages/LogManagePage",
+    "pages/TcpManagePage"
+  ]
+}
