@@ -151,9 +151,9 @@ def agent_loop(user_query: str, system_prompt: str, tools: dict):
 # ======================== 5. 运行入口 ========================
 if __name__ == "__main__":
     # -------------------------- 配置项（请替换为你的实际密钥） --------------------------
-    DEEPSEEK_API_KEY = "sk-22b40fd6b95b41bc852590e5977b5c10"  # 从 DeepSeek 控制台获取：https://platform.deepseek.com/
+    DEEPSEEK_API_KEY = ""  # 从 DeepSeek 控制台获取：https://platform.deepseek.com/
     DEEPSEEK_MODEL = "deepseek-chat"  # DeepSeek 通用对话模型（固定值）
-    TAVILY_API_KEY = "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"  # 可选，仅景点推荐功能需要：https://tavily.com/
+    TAVILY_API_KEY = ""  # 可选，仅景点推荐功能需要：https://tavily.com/
 
     # 设置环境变量（供 Tavily 工具使用）
     os.environ['TAVILY_API_KEY'] = TAVILY_API_KEY
@@ -161,7 +161,7 @@ if __name__ == "__main__":
     # 实例化 DeepSeek 客户端
     llm = DeepSeekCompatibleClient(
         model=DEEPSEEK_MODEL,
-        api_key=DEEPSEEK_API_KEY
+        api_key=DEEPSEEK_APIKEY_
     )
 
     # 启动智能体，处理用户请求
